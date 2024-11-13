@@ -23,7 +23,7 @@ export const NAVIGATION_LINKS = [
   { label: "Projects", href: "#projects" },
   { label: "Skills", href: "#skills" },
   { label: "Work Experience", href: "#work" },
-  { label: "Education", href: "#education" },
+  // { label: "Education", href: "#education" },
   { label: "Contact", href: "#contact" },
 ];
 
@@ -161,37 +161,21 @@ export const EXPERIENCES = [
   },
 ];
 
-export const EDUCATION = [
-  {
-    id: 1,
-    degree: "Bachelor of Science in Computer Science",
-    institution: "Stanford University",
-    duration: "2012 - 2016",
-    description:
-      "Graduated with honors in Computer Science, focusing on algorithms, data structures, and web development. Completed a capstone project on scalable cloud architectures.",
-  },
-  {
-    id: 2,
-    degree: "Master of Science in Software Engineering",
-    institution: "MIT",
-    duration: "2016 - 2018",
-    description:
-      "Focused on advanced software engineering concepts, system design, and AI technologies. Completed a thesis on machine learning applications in real-time data processing.",
-  },
-  {
-    id: 3,
-    degree: "Certified React Developer",
-    institution: "Udacity Nanodegree",
-    duration: "2019",
-    description:
-      "Earned a certification in advanced React.js development, including hooks, context API, and performance optimization.",
-  },
-];
+// export const EDUCATION = [
+//   {
+//     id: 1,
+//     degree: "Bachelor of Science in Computer Science",
+//     institution: "Pune University",
+//     duration: "2018 - 2020",
+//     description:
+//       "Graduated with honors in Computer Science, focusing on algorithms, data structures, and web development. Completed a capstone project on Student Discussion Forum.",
+//   },
+// ];
 
 export const TESTIMONIAL = {
-  name: "Sarah Doe",
-  title: "CEO, TechCorp",
+  name: "Rohit patekar",
+  title: "CEO, RS Motor's",
   quote:
-    "Working with David was a game-changer. His expertise in full-stack development helped us scale our product with ease. His attention to detail and passion for quality are unmatched.",
+    "Working with Shubham was a game-changer. His expertise in full-stack development helped us scale our product with ease. His attention to detail and passion for quality are unmatched.",
   image: personImage,
 };
