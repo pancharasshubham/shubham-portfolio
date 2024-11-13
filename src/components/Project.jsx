@@ -4,7 +4,7 @@ import { PROJECTS } from "../constants";
 const Project = () => {
     const projectRef = useRef(null)
     return (
-        <section className="pt-16" id="project" ref={projectRef}>
+        <section className="pt-16" id="projects" ref={projectRef}>
             <div className="px-4">
                 <h2 className="mb-8 text-center text-3xl font-medium lg:text-4xl">
                     Project

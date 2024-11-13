@@ -1,6 +1,8 @@
+import Experience from "./components/Experience"
 import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
 import Project from "./components/Project"
+import Skills from "./components/Skills"
 
 
 const App = () => {
@@ -11,6 +13,8 @@ const App = () => {
       <Navbar />
       <Hero />
       <Project />
+      <Skills />
+      <Experience />
     </div>
    </main>
   )
