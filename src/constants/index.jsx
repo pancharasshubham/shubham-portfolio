@@ -28,7 +28,7 @@ export const NAVIGATION_LINKS = [
 ];
 
 export const PROFILE = {
-  name: "David Stones",
+  name: "SHUBHAM PANCHARAS",
   role: "Full Stack Developer",
   subheading:
     "With 10 years of full-stack development experience, I build efficient, scalable web applications. Not on the job hunt, but always curious about interesting projects.",

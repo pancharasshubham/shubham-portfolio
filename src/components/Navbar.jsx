@@ -1,4 +1,7 @@
+import { RiCloseLine, RiMenu3Line } from "@remixicon/react"
 import { useState } from "react"
+import { NAVIGATION_LINKS } from "../constants"
+
 
 const Navbar = () => {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
@@ -30,7 +33,7 @@ const Navbar = () => {
             <div className="flex items-center justify-between gap-6">
                 <div>
                     <a href="/">
-                        <span className="uppercase">Shubham Pancharas</span>
+                        <span className="uppercase">shubham_p</span>
                     </a>
                 </div>
                 <div>
@@ -40,7 +43,7 @@ const Navbar = () => {
                                 <a className="text-sm hover:text-stone-300" 
                                 href={item.href} 
                                 onClick={(e) => handleLinkClick(e, item.href) }>
-                                    {item.label}
+                                    {item.label}    
                                 </a>
                             </li>
                         ))}
@@ -50,6 +53,35 @@ const Navbar = () => {
             </div>
 
             {/* Mobile menu */}
+            <div className="py-2 backdrop-blur-md lg:hidden">
+                <div className="flex items-center justify-between">
+                    <div>
+                        <a href="#">
+                            <span className="pl-2 uppercase">Shubham Pancharas</span>
+                        </a>
+                    </div>
+                    <div className="flex items-center">
+                        <button className="focus:outline-none lg:hidden" onClick={toggleMobileMenu} aria-label={isMobileMenuOpen ? "Close Menu" : "Open Menu"}>
+                            {isMobileMenuOpen ? (
+                                <RiCloseLine className="m-2 h-6 w-5" />
+                            ) : (
+                                <RiMenu3Line className="m-2 h-6 w-5" />
+                            )}
+                        </button>
+                    </div>
+                </div>
+                {isMobileMenuOpen && (
+                    <ul className="ny-2 ml-4 flex flex-col gap-6 backdrop-blur-md">
+                        {NAVIGATION_LINKS.map((item, index) => (
+                            <li key={index}>
+                                <a href={item.href} className="block w-full text-lg" onClick={(e) => handleLinkClick(e, item.href)}>
+                                    {item.label}
+                                </a>
+                            </li>
+                        ))}
+                    </ul>
+                )}
+            </div>
         </nav>
     </div>
   )
