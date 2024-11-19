@@ -57,7 +57,7 @@ const Navbar = () => {
                 <div className="flex items-center justify-between">
                     <div>
                         <a href="#">
-                            <span className="pl-2 uppercase">Shubham Pancharas</span>
+                            <span className="pl-2 uppercase">shubham_p</span>
                         </a>
                     </div>
                     <div className="flex items-center">
