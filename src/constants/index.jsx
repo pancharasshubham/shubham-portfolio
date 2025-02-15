@@ -31,7 +31,7 @@ export const PROFILE = {
   name: "SHUBHAM PANCHARAS",
   role: "Full Stack Developer",
   subheading:
-    "With 2 years of experience in front-end and full-stack development, I specialize in creating efficient, scalable web applications and am actively seeking exciting new opportunities.",
+    "With 3 years of experience in front-end and full-stack development, I specialize in creating efficient, scalable web applications and am actively seeking exciting new opportunities.",
 };
 
 export const PROJECTS = [
@@ -128,7 +128,7 @@ export const SKILLS = [
 
 export const EXPERIENCES = [
   {
-    yearRange: "2023 - Present",
+    yearRange: "2024 - Present",
     role: "Full Stack Developer",
     company: "Freelancer",
     description:
@@ -136,7 +136,7 @@ export const EXPERIENCES = [
     techStack: ["Javascript", "React.js", "Next.js", "MongoDB"],
   },
   {
-    yearRange: "2022 - 2023",
+    yearRange: "2023 - 2024",
     role: "Front-end Developer",
     company: "Freelancer",
     description:
@@ -144,21 +144,21 @@ export const EXPERIENCES = [
     techStack: ["HTML", "CSS", "Vue.js", "MySQL"],
   },
   {
-    yearRange: "2021 - 2022",
+    yearRange: "2022 - 2023",
     role: "Front-end Developer",
     company: "Freelancer",
     description:
       "Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.",
     techStack: ["JS", "React", "Three.js", "Postgres"],
   },
-  {
-    yearRange: "2020 - 2021",
-    role: "Front-end Developer",
-    company: "Freelancer",
-    description:
-      "Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.",
-    techStack: ["HTML", "CSS", "Javascript", "Motion"],
-  },
+  // {
+  //   yearRange: "2020 - 2021",
+  //   role: "Front-end Developer",
+  //   company: "Freelancer",
+  //   description:
+  //     "Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.",
+  //   techStack: ["HTML", "CSS", "Javascript", "Motion"],
+  // },
 ];
 
 // export const EDUCATION = [

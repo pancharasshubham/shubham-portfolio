@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react"
 import { PROFILE } from "../constants"
 import { RiArrowRightUpLine } from "@remixicon/react"
-import david from "../assets/David.webp"
+import shubham from "../assets/shubham.jpg"
 import { gsap } from "gsap"
 
 const Hero = () => {
@@ -76,7 +76,7 @@ const Hero = () => {
             </span>
             <RiArrowRightUpLine/>
         </a>
-        <img src={""} alt={PROFILE.name} width={400} height="400" className="hero-img rounded-3xl border border-purple-300/20 p-1" />
+        <img src={shubham} alt={PROFILE.name} width={400} height="400" className="hero-img rounded-3xl border border-purple-300/20 p-1" />
     </section>
   )
 }
