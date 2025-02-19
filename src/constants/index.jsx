@@ -37,12 +37,12 @@ export const PROFILE = {
 export const PROJECTS = [
   {
     id: 1,
-    title: "E-commerce Website",
+    title: "RS Motor's landing page",
     description:
-      "A full-featured e-commerce website built with React and Node.js. It includes user authentication, product management, and an integrated payment gateway.",
-    techStack: ["React", "Node.js", "Express", "MongoDB"],
+      "A responsive RS Motors Landing Page that allows users to book a test ride and schedule bike servicing online. The page is designed for Vespa bike models, providing a seamless booking experience.",
+    techStack: ["HTML", "CSS", "Javascript", "MongoDB"],
     imgSrc: project1,
-    link: "https://example-ecommerce.com",
+    link: "https://rsmotors.vercel.app",
   },
   {
     id: 2,
